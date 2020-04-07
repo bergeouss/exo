@@ -2,9 +2,9 @@ puts "Salut, bienvenue dans ma super pyramide ! Combien d'etages désires tu (1-
 print "> "
 e=gets.chomp.to_i
 puts "Voici la pyramide:"
-s = "\*"
-m = "\*"
+n = "\*"
+o = "\*"
 e.times do
-  puts "#{s}"
-  s += o
+puts "#{n}"
+n += o
 end
