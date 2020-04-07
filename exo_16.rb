@@ -8,3 +8,4 @@ age.times do
  année += 1
  puts "Il y a #{Time.now.year-naissance} ans tu avais #{année} ans"
 end
+
